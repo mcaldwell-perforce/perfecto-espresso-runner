@@ -1,0 +1,24 @@
+{
+	"cloudURL": "<<cloud>>",
+	"securityToken": "<<token>>",
+    "devices": [
+		{
+			"platformName": "Android",
+            "model": "^((?!Tab).)*$"
+        }
+    ],
+  "shard": false,
+  "numOfDevices": 1,
+  "tags" : ["test_1","test2"],
+  "projectName" : "Espresso",
+  "projectVersion" : "v10.5-test",
+  "jobName" : "default_job",
+  "jobNumber" : 1,
+  "branch" : "main",
+  "grantAll": true,
+  "testTimeout": 240000,
+  "androidOrchestrator": false,
+  "androidX": false,
+  "apkPath" : "./builds/app-debug.apk",
+  "testApkPath" : "./builds/app-debug-androidTest.apk"
+}
